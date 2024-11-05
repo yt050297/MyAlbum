@@ -1,0 +1,14 @@
+fastapi==0.95.0           # FastAPI フレームワーク
+uvicorn==0.21.1           # ASGI サーバー
+pydantic==1.10.5          # データバリデーション
+sqlmodel==0.0.6           # SQLAlchemy と Pydantic の統合 ORM
+# asyncpg==0.27.0           # 非同期 PostgreSQL ドライバー
+psycopg2-binary==2.9.6    # PostgreSQL 用の同期ドライバー
+# moviepy==1.0.3            # 動画編集ライブラリ (スライドショー作成などに使用)
+python-multipart==0.0.5    # ファイルアップロードを処理
+boto3==1.28.9             # AWS SDK for Python (S3 などの AWS サービスを使用)
+black==23.1.0             # Python のコードフォーマッタ
+sqlalchemy==1.4.46        # SQLModel に必要な SQLAlchemy のバージョン
+jinja2==3.1.2             # テンプレートエンジン (メールなどのHTMLテンプレートを使用する場合)
+aiofiles==23.1.0          # 非同期ファイル操作
+python-dotenv==1.0.1      # 環境変数管理
